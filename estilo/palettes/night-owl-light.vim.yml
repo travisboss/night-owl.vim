@@ -2,7 +2,7 @@ white: '#000000'
 bright: '#eeeeee'
 dark: '#d6deeb'
 # still testing this color
-neardark: '#d9deeb'
+neardark: '#000000'
 # jsStorageClass
 # jsOperator
 # jsArrowFunction
