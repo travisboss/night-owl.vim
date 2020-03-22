@@ -4,7 +4,7 @@
 " URL: https://github.com/haishanh/night-owl.vim
 " Author: Haishan
 " License: MIT
-" Last Change: 2020/03/22 13:00
+" Last Change: 2020/03/22 13:06
 " ===============================================================
 
 set background=light
@@ -14,7 +14,7 @@ if exists("syntax_on")
 endif
 let g:colors_name="night-owl-light"
 
-hi Normal guifg=#d6deeb ctermfg=253 guibg=#d6deeb ctermbg=253 gui=NONE cterm=NONE
+hi Normal guifg=#000000 ctermfg=0 guibg=#d6deeb ctermbg=253 gui=NONE cterm=NONE
 hi LineNr guifg=#444444 ctermfg=238 guibg=#d6deeb ctermbg=253 gui=NONE cterm=NONE
 hi CursorLine guibg=#d9deeb ctermbg=253 gui=NONE cterm=NONE
 hi CursorLineNr guifg=#aaaaaa ctermfg=248 guibg=#d9deeb ctermbg=253 gui=NONE cterm=NONE
@@ -37,7 +37,7 @@ hi PMenuSel guibg=#c792ea ctermbg=176 gui=NONE cterm=NONE
 hi Search guifg=#d6deeb ctermfg=253 guibg=#ecc48d ctermbg=222 gui=NONE cterm=NONE
 hi SpecialKey guifg=#ecc48d ctermfg=222 gui=NONE cterm=NONE
 hi Title guifg=#82aaff ctermfg=111 gui=bold cterm=bold
-hi Visual guifg=#d6deeb ctermfg=253 guibg=#2d2c5d ctermbg=236 gui=NONE cterm=NONE
+hi Visual guifg=#000000 ctermfg=0 guibg=#2d2c5d ctermbg=236 gui=NONE cterm=NONE
 hi EndOfBuffer guifg=#444444 ctermfg=238 guibg=#d6deeb ctermbg=253 gui=NONE cterm=NONE
 hi Comment guifg=#637777 ctermfg=243 gui=italic cterm=italic
 hi Constant guifg=#addb67 ctermfg=149 gui=NONE cterm=NONE
@@ -81,7 +81,7 @@ hi javaScriptReserved guifg=#82aaff ctermfg=111 gui=NONE cterm=NONE
 hi javaScriptConditional guifg=#c792ea ctermfg=176 gui=NONE cterm=NONE
 hi javaScriptStringS guifg=#ecc48d ctermfg=222 gui=NONE cterm=NONE
 hi javaScriptBoolean guifg=#ff5874 ctermfg=204 gui=NONE cterm=NONE
-hi javaScriptBraces guifg=#d6deeb ctermfg=253 gui=NONE cterm=NONE
+hi javaScriptBraces guifg=#000000 ctermfg=0 gui=NONE cterm=NONE
 hi javaScriptLineComment guifg=#637777 ctermfg=243 gui=italic cterm=italic
 hi javaScriptSpecial guifg=#f78c6c ctermfg=209 gui=NONE cterm=NONE
 hi javaScriptFunction guifg=#82aaff ctermfg=111 gui=NONE cterm=NONE
@@ -91,7 +91,7 @@ hi scssSelectorName guifg=#addb67 ctermfg=149 gui=NONE cterm=NONE
 hi cssTagName guifg=#ff5874 ctermfg=204 gui=NONE cterm=NONE
 hi cssClassName guifg=#addb67 ctermfg=149 gui=italic cterm=italic
 hi link cssClassNameDot cssClassName
-hi cssBraces guifg=#d6deeb ctermfg=253 gui=NONE cterm=NONE
+hi cssBraces guifg=#000000 ctermfg=0 gui=NONE cterm=NONE
 hi cssPositioningProp guifg=#7fdbca ctermfg=116 gui=NONE cterm=NONE
 hi cssBoxProp guifg=#7fdbca ctermfg=116 gui=NONE cterm=NONE
 hi cssDimensionProp guifg=#7fdbca ctermfg=116 gui=NONE cterm=NONE
@@ -117,8 +117,8 @@ hi cssIdentifier guifg=#f4d554 ctermfg=221 gui=italic cterm=italic
 hi markdownHeadingDelimiter guifg=#637777 ctermfg=243 gui=NONE cterm=NONE
 hi markdownCodeDelimiter guifg=#ecc48d ctermfg=222 gui=NONE cterm=NONE
 hi markdownCode guifg=#aaaaaa ctermfg=248 gui=NONE cterm=NONE
-hi mkdCodeStart guifg=#d6deeb ctermfg=253 gui=NONE cterm=NONE
-hi mkdCodeEnd guifg=#d6deeb ctermfg=253 gui=NONE cterm=NONE
+hi mkdCodeStart guifg=#000000 ctermfg=0 gui=NONE cterm=NONE
+hi mkdCodeEnd guifg=#000000 ctermfg=0 gui=NONE cterm=NONE
 hi mkdLinkDef guifg=#7fdbca ctermfg=116 gui=NONE cterm=NONE
 hi mkdCodeDelimiter guifg=#637777 ctermfg=243 guibg=#d6deeb ctermbg=253 gui=NONE cterm=NONE
 hi htmlH1 guifg=#82aaff ctermfg=111 gui=bold cterm=bold
@@ -134,7 +134,7 @@ hi NERDTreeClosable guifg=#ecc48d ctermfg=222 gui=NONE cterm=NONE
 hi NERDTreeHelp guifg=#444444 ctermfg=238 gui=italic cterm=italic
 hi NERDTreeUp guifg=#637777 ctermfg=243 gui=NONE cterm=NONE
 hi NERDTreeDirSlash guifg=#637777 ctermfg=243 gui=NONE cterm=NONE
-hi gitcommitSummary guifg=#d6deeb ctermfg=253 gui=NONE cterm=NONE
+hi gitcommitSummary guifg=#000000 ctermfg=0 gui=NONE cterm=NONE
 hi IndentGuidesOdd guibg=#444444 ctermbg=238 gui=NONE cterm=NONE
 hi IndentGuidesEven guibg=#777777 ctermbg=243 gui=NONE cterm=NONE
 hi GitGutterAdd guifg=#addb67 ctermfg=149 gui=NONE cterm=NONE
@@ -142,7 +142,7 @@ hi GitGutterChange guifg=#ecc48d ctermfg=222 gui=NONE cterm=NONE
 hi GitGutterDelete guifg=#ff5874 ctermfg=204 gui=NONE cterm=NONE
 hi GitGutterChangeDelete guifg=#ecc48d ctermfg=222 gui=NONE cterm=NONE
 
-let g:terminal_color_foreground = "#d6deeb"
+let g:terminal_color_foreground = "#000000"
 let g:terminal_color_background = "#d6deeb"
 let g:terminal_color_0 = "#d6deeb"
 let g:terminal_color_8 = "#637777"
