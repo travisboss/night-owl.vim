@@ -1,5 +1,5 @@
 " ===============================================================
-" night-owl
+" night-owl-light
 " 
 " URL: https://github.com/haishanh/night-owl.vim
 " Author: Haishan
@@ -7,17 +7,17 @@
 " Last Change: 2020/03/22 12:54
 " ===============================================================
 
-set background=dark
+set background=light
 hi clear
 if exists("syntax_on")
   syntax reset
 endif
-let g:colors_name="night-owl"
+let g:colors_name="night-owl-light"
 
 hi Normal guifg=#d6deeb ctermfg=253 guibg=#011627 ctermbg=233 gui=NONE cterm=NONE
 hi LineNr guifg=#444444 ctermfg=238 guibg=#011627 ctermbg=233 gui=NONE cterm=NONE
-hi CursorLine guibg=#112630 ctermbg=235 gui=NONE cterm=NONE
-hi CursorLineNr guifg=#aaaaaa ctermfg=248 guibg=#112630 ctermbg=235 gui=NONE cterm=NONE
+hi CursorLine guibg=#d9deeb ctermbg=253 gui=NONE cterm=NONE
+hi CursorLineNr guifg=#aaaaaa ctermfg=248 guibg=#d9deeb ctermbg=253 gui=NONE cterm=NONE
 hi ColorColumn guibg=#222222 ctermbg=235 gui=NONE cterm=NONE
 hi Directory guifg=#82aaff ctermfg=111 gui=NONE cterm=NONE
 hi DiffAdd guifg=#011627 ctermfg=233 guibg=#addb67 ctermbg=149 gui=NONE cterm=NONE
